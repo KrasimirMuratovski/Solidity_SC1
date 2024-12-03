@@ -20,6 +20,7 @@ contract StorageFactory{
     function sfStore(uint256 _simpleStoreIndex, uint256 _newSimpleStorageNumber) public {
         // Address
         //ABI - Application Binary Interfcae
+        //SimpleStorage type(SimpleStorage[]) comes automatically with the address and the ABI
         // (1)SimpleStorage mySimpleStorage = listOfSimpleStorageContracts[_simpleStoreIndex];
 
         SimpleStorage mySimpleStorage = listOfSimpleStorageContracts[_simpleStoreIndex];

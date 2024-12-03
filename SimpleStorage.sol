@@ -32,7 +32,7 @@ pragma solidity ^0.8.24; // stating our version
     //in the mapping the default value for all the keys is 0
     mapping(string =>uint256) public nameToFavoriteNumber;
 
-    function store(uint256 _favoriteNumber) public {
+    function store(uint256 _favoriteNumber) public virtual{
         myFavoriteNumber = _favoriteNumber;      
     }
 
